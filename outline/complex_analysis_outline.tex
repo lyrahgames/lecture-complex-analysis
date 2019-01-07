@@ -1,0 +1,243 @@
+\documentclass[8pt,a4paper,fleqn]{article}
+\usepackage{extsizes}
+\usepackage[left=25mm,right=25mm,top=30mm,bottom=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,mathtools}
+\usepackage{dsfont}
+\usepackage{multicol}
+\usepackage{times}
+
+\newcommand\setComplex{\mathds{C}}
+\newcommand\setReal{\mathds{R}}
+
+\begin{document}
+  \hrule
+  \begin{center}
+  \huge \textbf{Funktionentheorie: Gliederung}
+  \end{center}
+  \bigskip
+  {\large \begin{minipage}[c]{0.4\textwidth}\flushleft Markus Pawellek \\ markuspawellek@gmail.com\end{minipage} \hfill \begin{minipage}[c]{0.4\textwidth}\flushright\today\end{minipage}}
+  \medskip
+  \hrule
+  \bigskip
+
+  \begin{multicols}{2}
+  \section{Holomorphe Funktionen} % (fold)
+  \label{sec:holomorphe_funktionen}
+
+  \subsection{Komplexe Zahlen} % (fold)
+  \label{sub:komplexe_zahlen}
+  \begin{itemize}
+    \item Definition, Eigenschaften und Funktionen
+    \item Polarkoordinaten und andere Darstellungen
+    \item Definition und Eigenschaften der Betragsfunktion
+  \end{itemize}
+  % subsection komplexe_zahlen (end)
+
+  \subsection{Grenzwerte} % (fold)
+  \label{sub:grenzwerte}
+  \begin{itemize}
+    \item Definition Grenzwert einer Folge von komplexen Zahlen
+    \item Charakterisierung der Konvergenz
+    \item Beispiel: Standardgrenzwert
+  \end{itemize}
+  % subsection grenzwerte (end)
+
+  \subsection{Reihen} % (fold)
+  \label{sub:reihen}
+  \begin{itemize}
+    \item Definition konvergenter Reihen
+    \item Definition absolut konvergenter Reihen
+    \item Beispiel: Potenzreihe
+  \end{itemize}
+  % subsection reihen (end)
+
+  \subsection{Komplexe Funktionen} % (fold)
+  \label{sub:komplexe_funktionen}
+  \begin{itemize}
+    \item Definition und Charakterisierung
+    \item Beispiel
+  \end{itemize}
+  % subsection komplexe_funktionen (end)
+
+  \subsection{Stetigkeit komplexer Funktionen} % (fold)
+  \label{sub:stetigkeit_komplexer_funktionen}
+  \begin{itemize}
+    \item Definition und Charakterisierung
+    \item Erhalt der Stetigkeit unter Bildung von Produkt, Quotient oder Komposition
+    \item Bedingung für Stetigkeit des Betrages
+    \item Beispiele
+    \item Fortsetzung der Exponentialfunktion
+    \item Eigenschaften der Fortsetzung
+  \end{itemize}
+  % subsection stetigkeit_komplexer_funktionen (end)
+
+  \subsection{Potenzreihen} % (fold)
+  \label{sub:potenzreihen}
+  \begin{itemize}
+    \item Definition
+    \item Definition Häufungspunkt einer Folge
+    \item Definition $\limsup$ und $\liminf$
+    \item Beispiel: Häufungspunkte der angeordneten rationalen Zahlen
+    \item Satz über Konvergenzradius einer Potenzreihe mit Grenzfällen
+    \item Beispiele für die Berechnung des Konvergenzradius
+  \end{itemize}
+  \subsubsection{Eigenschaften} % (fold)
+  \label{ssub:eigenschaften}
+  \begin{itemize}
+    \item Gleichmäßige Konvergenz
+    \item Stetigkeit
+  \end{itemize}
+  % subsubsection eigenschaften (end)
+  % subsection potenzreihen (end)
+
+  \subsection{Differenzierbarkeit} % (fold)
+  \label{sub:differenzierbarkeit}
+  \begin{itemize}
+    \item Definition
+    \item Bemerkung Bedeutung und Betragsfunktion
+    \item Satz über Erhaltung der Rechenregeln aus dem reellen Zahlenbereich
+    \item Differenzierbarkeit impliziert Stetigkeit
+    \item Definition holomorphe Funktion
+    \item Beispiele holomorpher Funktionen
+    \item Satz über die Holomorphie und Ableitung einer Potenzreihe
+    \item Folgerung: Exponentialfunktion ist holomorph und ihre eigene Ableitung
+    \item Folgerung: Potenzreihen sind beliebig oft differenzierbar
+    \item Satz über die $n$.~Ableitung einer Potenzreihe
+    \item Bemerkungen zur Umkehrung von Sätzen
+  \end{itemize}
+  % subsection differenzierbarkeit (end)
+
+  \subsection{Die Cauchy-Riemann'schen Differentialgleichungen} % (fold)
+  \label{sub:die_cauchy_riemann_schen_differentialgleichungen}
+  \begin{itemize}
+    \item Problemstellung
+    \item Charakterisierung eindimensionale reelle Differenzierbarkeit in einem Punkt
+    \item Definition zweidimensionale Differenzierbarkeit
+    \item Satz über die Existenz der partiellen Ableitungen
+    \item Satz über die Existenz der Ableitung bei stetigen partiellen Ableitungen
+    \item Satz: partielle Ableitungen differenzierbarer Funktionen gehorchen den Cauchy-Riemann'schen Differentialgleichungen
+    \item Satz: Komponenten holomorpher Funktionen sind harmonisch
+  \end{itemize}
+  % subsection die_cauchy_riemann_schen_differentialgleichungen (end)
+  % section holomorphe_funktionen (end)
+
+  \section{Der Cauchy'sche Integralsatz} % (fold)
+  \label{sec:der_cauchy_sche_integralsatz}
+  \subsection{Komplexe Kurvenintegrale} % (fold)
+  \label{sub:komplexe_kurvenintegrale}
+  \begin{itemize}
+    \item Wiederholung Kurvenintegrale für das Riemann-Integral, Rektifizierbarkeit und Kurvenintegrale 2.~Art
+    \item Idee der komplexen Kurvenintegrale
+    \item Definition
+    \item Einfache Eigenschaften
+    \item Lemma: Separation, Orientierungsabhängigkeit und Beschränktheit
+    \item Beispiel: Hyperbel um $z_0 \in \setComplex$
+  \end{itemize}
+  % subsection komplexe_kurvenintegrale (end)
+
+  \subsection{Stammfunktionen} % (fold)
+  \label{sub:stammfunktionen}
+  \begin{itemize}
+    \item Definition
+    \item Beispiele
+    \item Lemma: HDI für komplexe Stammfunktionen und Kurvenintegrale
+    \item Exkurs über Kurvenintegrale 2.~Art
+    \item Wegabhängigkeit des Kurvenintegrals 2.~Art
+    \item Definition Gradientenfeld
+    \item Lemma: Notwendige Bedingung für Gradientenfeld
+    \item Definition sternförmiger Teilmengen des $\setReal^2$
+    \item Beispiele sternförmiger Mengen
+    \item Satz: Charakterisierung der Existenz eines Gradientenfelds
+    \item Satz über Kurvenintegrale bei existierendem Gradientenfeld
+    \item Beispiele
+    \item Lemma über die Berechnung der Stammfunktion
+  \end{itemize}
+  % subsection stammfunktionen (end)
+
+  \subsection{Der Cauchy'sche Integralsatz} % (fold)
+  \label{sub:der_cauchy_sche_integralsatz}
+  \begin{itemize}
+    \item Lemma: Integrallemma von Goursat
+    \item Satz: Integralsatz von Cauchy
+    \item Bemerkung: Ersetzung der Sternförmigkeit durch einfach zusammenhängend
+    \item Beispiel: Fresnel'sche Integrale
+  \end{itemize}
+  % subsection der_cauchy_sche_integralsatz (end)
+
+  \subsection{Die Cauchy'sche Integrationsformel} % (fold)
+  \label{sub:die_cauchy_sche_integrationsformel}
+  \begin{itemize}
+    \item Lemma: Gleichheit von geschlossenen Kurvenintegralen
+    \item Satz: Identität des Kurvenintegrals
+    \item Bemerkung
+  \end{itemize}
+  % subsection die_cauchy_sche_integrationsformel (end)
+  % section der_cauchy_sche_integralsatz (end)
+
+  \section{Eigenschaften holomorpher Funktionen} % (fold)
+  \label{sec:eigenschaften_holomorpher_funktionen}
+  \subsection{Potenzreihen} % (fold)
+  \label{sub:potenzreihen}
+  \begin{itemize}
+    \item Satz: Holomorphie impliziert Potenzreihenentwicklung
+    \item Folgerung: Holomorphie impliziert unendliche Differenzierbarkeit
+  \end{itemize}
+  % subsection potenzreihen (end)
+
+  \subsection{Der Satz von Liouville} % (fold)
+  \label{sub:der_satz_von_liouville}
+  \begin{itemize}
+    \item Definition ganzer Funktionen
+    \item Bemerkungen zu Folgerungen
+    \item Beispiele
+    \item Satz: Beschränkung impliziert Polynom
+    \item Folgerung: Fundamentalsatz der Algebra
+  \end{itemize}
+  % subsection der_satz_von_liouville (end)
+
+  \subsection{Der Identitätssatz} % (fold)
+  \label{sub:der_identitätssatz}
+  \begin{itemize}
+    \item Idee und Problem
+    \item Definition zusammenhängender Teilmengen
+    \item Satz: Charakterisierung der Gleichheit zwei holomorpher Funktionen
+    \item Folgerung: Eindeutigkeit und Existenz holomorpher Funktionen
+    \item Bemerkung über eindeutig bestimmte Fortsetzungen
+  \end{itemize}
+  % subsection der_identitätssatz (end)
+
+  \subsection{Das Maximumsprinzip} % (fold)
+  \label{sub:das_maximumsprinzip}
+  \begin{itemize}
+    \item Satz: Maximum impliziert Konstanz
+    \item Folgerung: Betrag realisiert Maximum auf dem Rand
+    \item Folgerung: Betrag realisiert Minimum auf dem Rand
+  \end{itemize}
+  % subsection das_maximumsprinzip (end)
+  % section eigenschaften_holomorpher_funktionen (end)
+
+  \section{Singularitäten- und Residuentheorie} % (fold)
+  \label{sec:singularitäten_und_residuentheorie}
+  \subsection{Laurentreihen} % (fold)
+  \label{sub:laurentreihen}
+  \begin{itemize}
+    \item Satz: Berechnung der Potenzreihe holomorpher Funktionen
+    \item Bemerkung: Laurentreihe, regulärer Teil und Hauptteil
+    \item Satz: Koeffizienten der Potenzreihe sind eindeutig
+  \end{itemize}
+  % subsection laurentreihen (end)
+
+  \subsection{Singularitäten} % (fold)
+  \label{sub:singularitäten}
+  \begin{itemize}
+    \item Definition hebbare Singularitäten, Polstellen und wesentliche Singularitäten
+    \item Beispiele
+    \item Satz: Charakterisierung von Singularitäten
+    \item Bemerkung
+  \end{itemize}
+  % subsection singularitäten (end)
+  % section singularitäten_und_residuentheorie (end)
+  \end{multicols}
+\end{document}
